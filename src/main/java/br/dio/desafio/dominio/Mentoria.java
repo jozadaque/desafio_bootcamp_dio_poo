@@ -21,11 +21,10 @@ public class Mentoria extends Conteudo {
 
     @Override
     public String toString() {
-        return "Mentoria{" +
+        return "\nMentoria\n" +
                 "titulo='" + getTitulo() + '\'' +
-                ", descricao='" + getDescricao() + '\'' +
-                ", data=" + data +
-                '}';
+                "\ndescricao='" + getDescricao() + '\'' +
+                "\ndata=" + data;
     }
 
 
